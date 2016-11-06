@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4d45601-d2fb-4ff0-9f2a-8383829942be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindEmailDomain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CaseInsensitivePalindrome.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeFights.iws" />
@@ -82,11 +82,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindEmailDomain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindEmailDomain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FindEmailDomain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="225">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaseInsensitivePalindrome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CaseInsensitivePalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -117,6 +127,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/CrosswordFormation.java" />
         <option value="$PROJECT_DIR$/src/FindEmailDomain.java" />
+        <option value="$PROJECT_DIR$/src/CaseInsensitivePalindrome.java" />
       </list>
     </option>
   </component>
@@ -193,7 +204,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.FindEmailDomain">
+  <component name="RunManager" selected="Application.CaseInsensitivePalindrome">
     <configuration default="false" name="RectanguleRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="RectanguleRotation" />
@@ -227,6 +238,21 @@
     <configuration default="false" name="FindEmailDomain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="FindEmailDomain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodeFights" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="CaseInsensitivePalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="CaseInsensitivePalindrome" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -473,16 +499,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.RectanguleRotation" />
       <item index="1" class="java.lang.String" itemvalue="Application.CrosswordFormation" />
       <item index="2" class="java.lang.String" itemvalue="Application.FindEmailDomain" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CaseInsensitivePalindrome" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.FindEmailDomain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CrosswordFormation" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RectanguleRotation" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.CaseInsensitivePalindrome" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FindEmailDomain" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CrosswordFormation" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RectanguleRotation" />
       </list>
     </recent_temporary>
   </component>
@@ -508,7 +536,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -581,7 +609,7 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -593,6 +621,8 @@
         <watch expression="verticalWord1.charAt(charIndexVContinue)" />
         <watch expression="horizontalWord2.charAt(charIndexH2 + rectangleWidth)" />
         <watch expression="verticalWord2.charAt(charIndexVContinue + verticalWordPositionDifference)" />
+        <watch expression="inputString.substring(0, middle)" />
+        <watch expression="inputString.substring(inputString.length() - middle)" />
       </configuration>
     </watches-manager>
   </component>
@@ -663,8 +693,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FindEmailDomain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="225">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CaseInsensitivePalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>
