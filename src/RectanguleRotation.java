@@ -33,7 +33,7 @@ public class RectanguleRotation {
     double theta = Math.PI / 4;
 
     int rectangleRotation(int a, int b) {
-        int maxDimension = 20;
+        int maxDimension = (int) (Math.max(a, b) * 1.44);
         Rectangle r = calculateRectangle(a, b);
         int count = 0;
         for (int x = 0 - maxDimension; x <= maxDimension; x++) {
