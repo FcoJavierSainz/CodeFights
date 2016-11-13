@@ -1,3 +1,5 @@
+package arcade.nestedLoops;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
