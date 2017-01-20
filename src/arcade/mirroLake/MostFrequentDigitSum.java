@@ -21,6 +21,7 @@ public class MostFrequentDigitSum {
         for (int i = 1; i < length; i++) {
             if (frequency <= sums[i]) {
                 mostFrequentSum = i;
+                frequency = sums[i];
             }
         }
         return mostFrequentSum;
