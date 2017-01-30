@@ -41,6 +41,21 @@ public class FindOnlyDiffChar {
         return a[i] + s;
     }
 
+    int findOnlyDiffChar4(int[] a, int[] b) {
+        for (int e : a)
+            s += e;
+        for (int e : b)
+            s -= e;
+        return  s;
+    }
+
+    //solution by CuongVM
+    int j;
+    int findOnlyDiffChar5(int[] a, int[] b) {
+        for(int i : b) a[0] += a[++j] - i;
+        return a[0];
+    }
+
 
     public static void main(String[] args) {
         System.out.println(new FindOnlyDiffChar().findOnlyDiffChar3(
